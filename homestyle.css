@@ -1,0 +1,105 @@
+*{
+    font-family: Times;
+    font-size: medium;
+    color: #000000;
+
+}
+
+td:nth-child(odd)
+{
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+tr:nth-child(even)
+{
+    background-color: lightgreen ;
+}
+
+table, th, td{
+    border: 1px solid black
+}
+
+#floated{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+#gridinfo{
+    background: lightblue;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    border: solid 3px black;
+}
+
+.classtable{
+    border: solid 2px black;
+}
+
+.best{
+    font-style: italic;
+}
+
+#sectionintro{
+    background-color: cornflowerblue;
+}
+
+#sectionone{
+    background-color: aquamarine;
+}
+
+#sectiontwo{
+    background-color: coral;
+}
+
+#sectionthree{
+    background-color: lightgreen;
+}
+
+#sectionfour{
+    background-color: lightyellow;
+}
+
+#sectionfive{
+    background-color: lightgrey;
+}
+
+#sectionsix{
+    background-color: blanchedalmond;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+}
+
+@media (max-width: 600px) {
+    #gridinfo{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr;
+    }
+}          
